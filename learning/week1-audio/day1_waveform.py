@@ -15,14 +15,18 @@ AUDIO_PATH = "sample.wav"  # your ~10s recording
 # 1) Load the audio.
 #    librosa.load returns (y, sr): y = samples (a numpy array), sr = sampling rate.
 #    Try sr=None first (keep original), then try sr=16000 and see what changes.
-y, sr = librosa.load(AUDIO_PATH, sr=None)
+y, sr = librosa.load(AUDIO_PATH, sr=16000)
 
 # TODO A: print the sampling rate, the number of samples (len(y)),
 #         and the duration in seconds (len(y) / sr). Confirm the maths yourself.
+print(len(y))
+print(len(y) / sr)
 
 # TODO B: plot the waveform.
 #         Hint: librosa.display.waveshow(y, sr=sr)  — then plt.title/xlabel/ylabel/show.
-
+print(librosa.display.waveshow(y, sr=sr))
+plt.title("Waveform")
+plt.show()
 # TODO C: reload with sr=16000. How many samples now? Why fewer?
 #         Write the answer in LEARNINGS.md.
 
