@@ -1,0 +1,8 @@
+# audio samples & recordings — keep out of git
+*.wav
+*.mp3
+*.m4a
+*.flac
+# python venv
+.venv/
+__pycache__/
