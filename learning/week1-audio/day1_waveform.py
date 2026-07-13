@@ -33,3 +33,4 @@ plt.show()
 # --- Reflection (answer in LEARNINGS.md, in your own words) ---
 # - What does the y-axis (amplitude) represent physically?
 # - What does the sampling rate control, and why is 16 kHz common for speech?
+# this is a good time to ask AI to explain the concepts
