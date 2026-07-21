@@ -3,6 +3,7 @@ import librosa.display
 import matplotlib.pyplot as plt
 import numpy as np
 
+# still ...
 
 audio, sr = librosa.load("my_voice.wav", sr=16000)
 
