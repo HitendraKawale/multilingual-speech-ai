@@ -3,6 +3,7 @@ librosa
 matplotlib
 numpy
 soundfile
+sounddevice   # Day 2 (mic recording)
 jupyter
 sentence-transformers   # Day 4 (embeddings)
 # Week 2 (Sprint 0) will add: openai-whisper, jiwer
