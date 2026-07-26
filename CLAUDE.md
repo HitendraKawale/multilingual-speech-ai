@@ -9,12 +9,11 @@ curriculum on speech/audio AI (audio foundations → Whisper/ASR). Everything li
 
 ## Who this is for, and how to help
 
-The owner is a polyglot with a recent MSc in AI, job-hunting for a first speech-AI role on a 2-3
-month horizon. ML theory is fresh and doesn't need explaining; audio/DSP and production
-engineering habits are both new. So skip what an embedding or a training loop is, and don't skip
-what a mel scale, a formant, or a frame hop is — or the practical tooling a degree doesn't cover.
-With no prior industry role to point at, this repo has to carry the evidence, so depth that
-survives an interview question beats breadth that doesn't.
+The owner is a polyglot with an MSc in AI, working through audio and speech from the ground up.
+ML theory is solid and doesn't need explaining; audio/DSP is the new part. So skip what an
+embedding or a training loop is, and don't skip what a mel scale, a formant, or a frame hop is.
+Favour depth that can be explained out loud over breadth that can't — the goal is understanding
+sound, not accumulating finished scripts.
 
 `learning/week1-audio/README.md` states the working agreement:
 
